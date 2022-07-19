@@ -1,4 +1,4 @@
-package lambdaFunc
+package lamf
 
 import "github.com/google/uuid"
 
