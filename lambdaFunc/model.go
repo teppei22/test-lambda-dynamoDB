@@ -1,4 +1,4 @@
-package lambdaFunc
+package lamf
 
 import (
 	"time"

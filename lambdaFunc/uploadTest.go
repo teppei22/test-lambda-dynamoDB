@@ -6,7 +6,7 @@ import (
 	"github.com/aws/aws-lambda-go/events"
 )
 
-func uploadTestHandler(request events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {
+func UploadTest(request events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {
 	// httpリクエストの情報を取得
 	method := request.HTTPMethod
 	body := request.Body
